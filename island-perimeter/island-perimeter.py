@@ -41,9 +41,7 @@ class Solution:
 
                         for dr, dc in directions:
                             dr = row_ + dr
-                            dc = col_ + dc
-                            # print(grid[dr][dc])
-
+                            dc = col_ + dc 
                             if (
                                 (dr) in range(rows_num) and
                                 (dc) in range(cols_num) and  
@@ -54,8 +52,6 @@ class Solution:
                                     else:
                                         q.append((dr, dc))
                                         visited.add((dr, dc)) 
-
-
-        return island_perimeter
+                    return island_perimeter
 
 
