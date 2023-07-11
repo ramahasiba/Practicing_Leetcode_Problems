@@ -47,11 +47,4 @@ class Solution:
                         q.append((dr, dc))
                         visited.add((dr, dc))
 
-        return image
-
-
-
-
-
-
-
+        return image 
