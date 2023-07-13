@@ -1,28 +1,17 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        prices_number = len(prices)
-        min_price_index = 0
-        min_price = prices[0]
-        max_price_index = 1
-        max_price = 0
-        max_profit = 0 
-        for index in range(2, prices_number + 1):
-            searching_list = prices[index - 2: index]
-            current_min_price = min(searching_list)
-            current_max_price = max(searching_list)
-            current_max_price_index = searching_list.index(current_max_price)
-            if current_max_price_index == 1:
-                if current_min_price < min_price:
-                    min_price =  current_min_price
-                    max_price = current_max_price
-                if current_max_price > max_price:
-                    max_price = current_max_price
 
-                current_max_profit = max_price - min_price
-                if current_max_profit > max_profit:
-                    max_profit = current_max_profit
+        first_ptr, sec_ptr = 0, 1
+        max_profit = 0
 
-        if max_profit > 0:
-            return max_profit
-        else: 
-            return 0 
+        number_of_prices = len(prices)
+        while sec_ptr < number_of_prices:
+            #check if the these two items profitable
+            if prices[first_ptr] < prices[sec_ptr]:
+                profit = prices[sec_ptr] - prices[first_ptr]
+                max_profit = max(max_profit, profit)
+            else:
+                first_ptr = sec_ptr
+            sec_ptr = sec_ptr + 1
+
+        return max_profit
