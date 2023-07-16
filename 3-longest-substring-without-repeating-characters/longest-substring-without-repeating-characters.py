@@ -36,29 +36,11 @@ class Solution:
                     }
 
                     substring_chars[s[sec_ptr]] = sec_ptr
-
-
-
+ 
                     sec_ptr += 1  
                     
             current_substring_length = len(substring_chars)
             if current_substring_length > longest_substring_length:
                 longest_substring_length = current_substring_length 
-            
-            
-        #     for index, char in enumerate(s): 
-        #         if char not in current_substring:
-        #             current_substring += char
-        #             current_substring_length += 1
-        #         else:
-        #             if current_substring_length > longest_substring_length:
-        #                 longest_substring_length = current_substring_length
-
-        #             slicing_position = current_substring.find(char)
-        #             current_substring = current_substring[slicing_position + 1: current_substring_length + 1]
-        #             current_substring_length = 0
-
-        # if current_substring_length > longest_substring_length:
-        #     longest_substring_length = current_substring_length    
-
+             
         return longest_substring_length
