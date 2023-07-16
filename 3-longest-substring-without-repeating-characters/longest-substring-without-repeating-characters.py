@@ -1,8 +1,5 @@
 class Solution:
-    def lengthOfLongestSubstring(self, s: str) -> int:
-        """
-        save strin characters in a dictionary with thier positions then check if the substring is greater than the current one then replace it 
-        """
+    def lengthOfLongestSubstring(self, s: str) -> int: 
         #get the length of s
         s_length = len(s)
 
