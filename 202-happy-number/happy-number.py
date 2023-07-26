@@ -19,4 +19,5 @@ class Solution:
         while slow!=fast and fast!=1:
             slow = self.sum_squares(slow)
             fast = self.sum_squares(self.sum_squares(fast))
+            
         return fast==1   
