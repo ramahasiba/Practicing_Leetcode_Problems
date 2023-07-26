@@ -1,23 +1,20 @@
 class Solution:
-    def sum_squares(self, n):         
-        updated_n = 0
-
-        while n:
-            digit = n % 10
-            digit = digit ** 2
-            updated_n += digit
-            n = n // 10
-
-        n = updated_n 
-
-        return n
-        
-    def isHappy(self, n: int) -> bool: 
-        slow = self.sum_squares(n)
-        fast = self.sum_squares(self.sum_squares(n))
-
-        while slow!=fast and fast!=1:
-            slow = self.sum_squares(slow)
-            fast = self.sum_squares(self.sum_squares(fast))
+    def isHappy(self, n: int) -> bool:
+        squared_sums = set() 
+        while n not in squared_sums:
+            squared_sums.add(n)
             
-        return fast==1   
+            updated_n = 0
+
+            while n:
+                digit = n % 10
+                digit = digit ** 2
+                updated_n += digit
+                n = n // 10
+
+            n = updated_n
+
+            if n == 1:
+                return True
+
+        return False
