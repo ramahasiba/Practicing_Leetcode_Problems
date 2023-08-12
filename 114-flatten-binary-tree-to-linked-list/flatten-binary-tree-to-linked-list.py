@@ -5,7 +5,8 @@
 #         self.left = left
 #         self.right = right
 
-
+#Visit, Left, Right  
+#Maintain: Previous, current, and right subtree root  
 class Solution:
     prev = None
     def flatten(self, root: Optional[TreeNode]) -> None:
@@ -16,10 +17,8 @@ class Solution:
             return None
         else:
             self.flatten(root.right)
-            self.flatten(root.left)
-            root.right=self.prev
-            root.left=None
-            self.prev=root
+            self.flatten(root.left) 
 
-            # temp, root.right = root.right, root.left
-            # root.left = None
+            root.right = self.prev
+            root.left = None
+            self.prev = root 
