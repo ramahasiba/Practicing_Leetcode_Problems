@@ -1,5 +1,9 @@
-* Matrix
+## Matrix
 
-* Sliding Window
+## Sliding Window
 
-* Two Pointers
+## Two Pointers
+
+## Fast & Slow Pointers
+
+## Tree Depth First Search 
