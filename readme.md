@@ -5,7 +5,7 @@
 1254. Number of closed islands
 200. Number of islands
 867. Transpose matrix
-* Find number of distinct island in a 2d matrix
+Find number of distinct island in a 2d matrix
 
 ## Sliding Window 
 3. [x] Longest Substring Without Repeating Characters (Sliding window) 
@@ -24,7 +24,7 @@
 643. Maximim average subarray i
 26. Remove duplicates from sorted array
 581. Shortest unsorted continuous subarray 
-* Single number
+Single number
 75. Sort colors 
 977. Squares of a sorted array
 1. Two-sum
@@ -46,3 +46,4 @@
 98. Validate binary search tree 
 
 
+[114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
