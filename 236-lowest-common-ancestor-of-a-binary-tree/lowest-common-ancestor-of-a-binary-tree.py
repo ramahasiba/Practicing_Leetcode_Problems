@@ -10,17 +10,13 @@ def findPath(root: TreeNode, target: int) -> List[int]:
     return path
 def dfs(node, target, path):
     if not node:
-        return False
-    
+        return False 
     # Add the current node's value to the path
-    path.append(node.val)
-    
+    path.append(node.val) 
     if node.val == target:
-        return True
-    
+        return True 
     if dfs(node.left, target, path) or dfs(node.right, target, path):
-        return True
-    
+        return True 
     # Remove the current node's value from the path if the target is not found
     path.pop()
     return False 
@@ -33,13 +29,4 @@ class Solution:
         if intersection:
             return TreeNode(intersection[-1])
         else:
-            return root
-        # if not root or root == p or root == q:
-        #     return root 
-            
-        # left = self.lowestCommonAncestor(root.left, p, q)
-        # right = self.lowestCommonAncestor(root.right, p, q)
-
-        # if left and right:
-        #     return root
-        # return left or right
+            return root 
