@@ -77,5 +77,4 @@
 
 [98. Validate binary search tree](https://leetcode.com/problems/validate-binary-search-tree/)
  
-[114. Flatten Binary Tree to Linked List]()
-(https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+[114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
