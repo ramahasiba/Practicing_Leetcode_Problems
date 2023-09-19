@@ -64,17 +64,51 @@
 [287. Find the duplicate number](https://leetcode.com/problems/find-the-duplicate-number/)
 
 
-## Tree Depth First Search 
+## Binary Tree 
+[94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) 
+
+[98. Validate binary search tree](https://leetcode.com/problems/validate-binary-search-tree/)
+
+[100. Same Tree](https://leetcode.com/problems/same-tree/description/)
+
+[101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+
+[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+
 [104. Maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
-[199. Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/)
-
-[226. Invert binary tree](https://leetcode.com/problems/invert-binary-tree/)
-
-[543. Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+[107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)
 
 [108. Convert sorted array to binary search tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 
-[98. Validate binary search tree](https://leetcode.com/problems/validate-binary-search-tree/)
- 
+[110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+
+[112. Path Sum](https://leetcode.com/problems/path-sum/)
+
 [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+
+[124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+
+[144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+
+[145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+
+[199. Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/)
+
+[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+
+[226. Invert binary tree](https://leetcode.com/problems/invert-binary-tree/)
+
+[235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+
+[236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+
+[543. Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+
+[617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)
+
+
+
+
+
+
