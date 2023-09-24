@@ -13,12 +13,5 @@ class Solution:
                 else:
                     a = mid
                     ans = a
-            return a
-
-            # counter = 2
-            # while counter * counter <= x:
-            #     counter += 1
-            # return counter - 1
-
-
+            return a 
         
