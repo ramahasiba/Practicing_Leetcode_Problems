@@ -17,7 +17,13 @@ class Solution:
         } 
         roman=''
         for key, val in sorted(symbol_values.items(), reverse=True): 
-            while num >= key:
+            # while num >= key:
+            #     roman+=val
+            #     num-=key 
+            while num // key:
                 roman+=val
                 num-=key 
-        return roman   
+        return roman
+
+
+
