@@ -16,13 +16,12 @@ class Solution:
             900: 'CM'    
         } 
         roman=''
-        for key, val in sorted(symbol_values.items(), reverse=True): 
-            # while num >= key:
-            #     roman+=val
-            #     num-=key 
-            while num // key:
-                roman+=val
-                num-=key 
+        for key, val in sorted(symbol_values.items(), reverse=True):   
+            division_res = num // key
+            while division_res: 
+                roman+=val*division_res
+                num-=key*division_res
+                division_res=0
         return roman
 
 
