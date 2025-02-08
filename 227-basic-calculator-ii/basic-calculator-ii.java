@@ -39,8 +39,7 @@ class Solution
                         System.out.println("Invalid expression, please enter a valid one. e.g: 55 * 6 + 9.");
                         break; 
                 }  
-                operation = currChar; 
-                System.out.println("index: " + i);
+                operation = currChar;  
 
                 curr = 0;
             } 
