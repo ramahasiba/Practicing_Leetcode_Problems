@@ -9,11 +9,14 @@ class Node:
 class Solution:
     def preorder(self, root: 'Node') -> List[int]:
         result = []
-        def traverse(tree):
-            if tree:
-                result.append(tree.val)
-                for child in tree.children:
-                    traverse(child)
-        traverse(root)
+
+        self.traverse(root, result)
+
         return result
+
+    def traverse(self, tree, result):
+        if tree:
+            result.append(tree.val)
+            for child in tree.children:
+                self.traverse(child, result)
         
